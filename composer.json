@@ -1,0 +1,29 @@
+{
+    "name": "jufengtech/jfopen-sdk",
+    "description": "聚丰开放平台 API SDK",
+    "keywords": ["jfopen", "api", "sdk"],
+    "homepage": "https://www.huocai.com/",
+    "license" : "MIT",
+    "authors": [
+        {
+            "name": "Xiaozhi Yang",
+            "email": "yxz@jf.com",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "yxz@jf.com",
+        "issues": "https://github.com/jufengtech/jfopen-sdk",
+        "source": "https://github.com/jufengtech/jfopen-sdk"
+    },
+    "require": {
+        "guzzlehttp/guzzle": "~6.0",
+        "vlucas/phpdotenv": "^2.4",
+        "predis/predis": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "JF\\": "src/"
+        }
+    }
+}
